@@ -3,7 +3,7 @@
 //  Label
 //
 //  Created by Sergij Fartushniy on 3/4/17.
-//  Copyright © 2017 Sergij Fartushniy. All rights reserved....
+//  Copyright © 2017 Sergij Fartushniy. All %* rights reserved....
 //
 
 import UIKit
