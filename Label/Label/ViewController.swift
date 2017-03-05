@@ -10,21 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
     @IBOutlet weak var theLable: UILabel!
                
-var tapCount = 0
+    @IBOutlet weak var text1: UITextField!
+
+    @IBOutlet weak var text2: UITextField!
     
     @IBAction func buttonTapped(_ sender: Any) {
         
-            tapCount = tapCount + 1
-               print (tapCount)
-               if tapCount >= 10 {
-               theLable.text = "You Tapped Button TenTimes"
+        print(text1.text!)
+        print(text2.text!)
+        
                }
-    
-               }
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,8 +31,6 @@ var tapCount = 0
         self.view.backgroundColor = UIColor.red
     }
     
-    
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
